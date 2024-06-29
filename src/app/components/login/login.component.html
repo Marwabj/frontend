@@ -1,0 +1,23 @@
+<div class="form-container mat-elevation-z5">
+  <form [formGroup]="loginForm">
+    <p class="teext">Welcome !</p>
+    <div class="imgcontainer">
+      <img src="assets/avatarr.png" alt="Avatar" class="avatar" />
+    </div>
+
+    <mat-form-field>
+      <input type="text" placeholder="Email address" formControlName="email" />
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        type="password"
+        placeholder="Password"
+        formControlName="Password"
+        type="password"
+      />
+    </mat-form-field>
+    <div class="center margin-top">
+      <button type="submit">Login</button>
+    </div>
+  </form>
+</div>

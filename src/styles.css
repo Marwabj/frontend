@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 50%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+.form-container {
+  display: block;
+  max-width: 320px;
+  max-height: 500px;
+  margin: auto;
+  background: rgb(99, 161, 211);
+  padding: 80px;
+  border-radius: 90px;
+}
+
+.form-container mat-form-field {
+  width: 200%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.margin-top {
+  margin-top: 15px;
+}
+
+.text-center {
+  text-align: center;
+}

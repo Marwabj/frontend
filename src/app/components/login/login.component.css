@@ -1,0 +1,72 @@
+input[type="text"],
+input[type="password"] {
+  width: 45%;
+  padding: 14px 15px;
+  margin: 6px 0;
+  display: inline-block;
+  border: 3px solid #498ebc;
+  box-shadow: rgba(3, 3, 3, 0.35) 0px 5px 15px;
+  font-size: 15.5px;
+}
+button {
+  align-items: center;
+  background-image: linear-gradient(144deg, #81baf8, #307fc9 50%, #e4fe3b);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #fdf7f7;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-63:active,
+.button-63:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-63 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+button:hover {
+  opacity: 0.8;
+}
+.imgcontainer {
+  text-align: center;
+  margin: 5px 0 5px 0;
+}
+img.avatar {
+  width: 55%;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.form-container {
+  padding: 75px;
+}
+.text {
+  font-size: 18px;
+  font-style: inherit;
+}
+.teext {
+  font-size: 28px;
+  font-family: "georgia";
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
